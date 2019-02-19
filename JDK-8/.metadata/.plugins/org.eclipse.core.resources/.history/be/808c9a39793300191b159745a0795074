@@ -1,0 +1,23 @@
+package br.eti.webstuff.estudosjdk8.entidade;
+
+import br.eti.webstuff.estudosjdk8.enumeration.Nivel;
+
+public class Tecnologia {
+
+	private Integer id;
+	private String nome;
+	private Nivel nivel;
+	private Boolean curso;
+	private Boolean participacaoProjeto;
+	private Integer mesesAtuando;
+	
+	
+	public Tecnologia(String nome, Integer desenvolvedor, String nivel){
+		this.nome = nome;
+		this.desenvolvedor = desenvolvedor;
+		this.nivel = nivel;
+	}
+	
+
+	
+}

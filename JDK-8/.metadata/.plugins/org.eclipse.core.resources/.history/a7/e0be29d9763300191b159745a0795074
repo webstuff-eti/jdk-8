@@ -1,0 +1,33 @@
+package br.eti.webstuff.estudosjdk8.entidade;
+
+public class Tecnologia {
+
+	private String nome;
+	private Integer desenvolvedor;
+	private String nivel;
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Integer getDesenvolvedor() {
+		return desenvolvedor;
+	}
+
+	public void setDesenvolvedor(Integer desenvolvedor) {
+		this.desenvolvedor = desenvolvedor;
+	}
+
+	public String getNivel() {
+		return nivel;
+	}
+
+	public void setNivel(String nivel) {
+		this.nivel = nivel;
+	}
+
+}

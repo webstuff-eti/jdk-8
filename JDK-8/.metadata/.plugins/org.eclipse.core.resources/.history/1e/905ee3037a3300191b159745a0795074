@@ -1,0 +1,26 @@
+package br.eti.webstuff.estudosjdk8.builder;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.eti.webstuff.estudosjdk8.entidade.Tecnologia;
+import br.eti.webstuff.estudosjdk8.enumeration.Nivel;
+
+public class PopulaLista {
+	
+	
+	public static List<Tecnologia> populaListaTecnologias(){
+		
+		List<Tecnologia> tecnologias = new ArrayList<>();
+		
+		tecnologias.add(new Tecnologia( 1, "JDK 8", Nivel.PLENO, true, true, 5));
+		tecnologias.add(new Tecnologia( "Spring Data JPA", 3, "Pleno" ));
+		tecnologias.add(new Tecnologia( "JDK 8", 10, "Pleno" ));
+		tecnologias.add(new Tecnologia( "PL/ SQL", 6, "Junior" ));
+		tecnologias.add(new Tecnologia( "REST FULL", 9, "Pleno" ));
+		tecnologias.add(new Tecnologia( "JSON", 12, "Pleno" ));
+		
+		return tecnologias;
+	}
+
+}

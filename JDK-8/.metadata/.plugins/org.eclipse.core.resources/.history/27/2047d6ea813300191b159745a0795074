@@ -1,0 +1,19 @@
+package br.eti.webstuff.estudosjdk8;
+
+import java.util.List;
+
+import br.eti.webstuff.estudosjdk8.builder.PopulaLista;
+import br.eti.webstuff.estudosjdk8.entidade.Perfil;
+
+public class AppRunStreamFilterMapForEach {
+
+	public static void main(String[] args) {
+		
+		
+		List<Perfil> perfis = PopulaLista.populaListaTecnologias();
+		
+		
+
+	}
+
+}

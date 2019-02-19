@@ -1,0 +1,26 @@
+package br.eti.webstuff.estudosjdk8.builder;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.eti.webstuff.estudosjdk8.entidade.PerfilDesenvolvedor;
+import br.eti.webstuff.estudosjdk8.enumeration.Nivel;
+
+public class PopulaLista {
+	
+	
+	public static List<PerfilDesenvolvedor> populaListaTecnologias(){
+		
+		List<PerfilDesenvolvedor> perfis = new ArrayList<>();
+		
+		perfis.add(new PerfilDesenvolvedor( 1, "JDK 8", Nivel.PLENO, true, true, 5));
+		perfis.add(new PerfilDesenvolvedor( 2, "Spring Boot", Nivel.SENIOR, true, true, 5 ));
+		perfis.add(new PerfilDesenvolvedor( 3, "Rest Full", Nivel.PLENO, true, true, 36 ));
+		perfis.add(new PerfilDesenvolvedor( 4, "Spring Data JPA", Nivel.PLENO, true, true, 5 ));
+		perfis.add(new PerfilDesenvolvedor( 5, "PL/ SQL", Nivel.JUNIOR, true, true, 8 ));
+		perfis.add(new PerfilDesenvolvedor( 6, "Protocolo HTTP", Nivel.SENIOR, true, true, 36 ));
+		
+		return perfis;
+	}
+
+}

@@ -1,0 +1,10 @@
+package br.eti.webstuff.estudosjdk8;
+
+public class AppRun {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

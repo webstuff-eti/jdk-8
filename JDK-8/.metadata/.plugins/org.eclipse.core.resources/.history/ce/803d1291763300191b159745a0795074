@@ -1,0 +1,18 @@
+package br.eti.webstuff.estudosjdk8.builder;
+
+import java.util.ArrayList;
+
+public class PopulaLista {
+	
+	
+	public static List<Tecnologia> populaListaTecnologias(){
+		
+		List<Tecnologia> tecnologias = new ArrayList<>();
+		
+		
+		
+		return tecnologias;
+		
+	}
+
+}

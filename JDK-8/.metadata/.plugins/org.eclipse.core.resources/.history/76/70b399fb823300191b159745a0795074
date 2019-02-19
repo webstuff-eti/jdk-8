@@ -1,0 +1,23 @@
+package br.eti.webstuff.estudosjdk8.collectors;
+
+import java.util.List;
+import java.util.Optional;
+
+import br.eti.webstuff.estudosjdk8.builder.PopulaLista;
+import br.eti.webstuff.estudosjdk8.entidade.Perfil;
+
+public class AppRunOptinalFilterFindAny {
+
+	public static void main(String[] args) {
+		
+		
+		List<Perfil> perfis = PopulaLista.populaListaTecnologias();
+		
+		Optional<Perfil> optinalPerfil = perfis.stream()
+                                               .filter(p -> p.getNivelConhecimento() >= 5)
+                                               .findAny();
+		
+		System.out.println("xxx: ", + optinalPerfil.get().getNome());
+	}
+
+}

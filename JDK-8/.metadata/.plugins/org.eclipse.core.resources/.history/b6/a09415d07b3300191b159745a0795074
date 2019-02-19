@@ -1,0 +1,22 @@
+package br.eti.webstuff.estudosjdk8;
+
+import java.util.Comparator;
+import java.util.List;
+
+import br.eti.webstuff.estudosjdk8.builder.PopulaLista;
+
+
+public class AppRun {
+
+	public static void main(String[] args) {
+		
+		
+		List<Perfil> perfis = PopulaLista.populaListaTecnologias();
+		
+		perfis.sort(Comparator.comparingInt(p -> p.getMesesAtuando());
+		
+		
+
+	}
+
+}

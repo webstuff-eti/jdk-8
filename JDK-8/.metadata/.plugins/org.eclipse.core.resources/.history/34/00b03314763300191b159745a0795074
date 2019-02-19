@@ -1,0 +1,12 @@
+package br.eti.webstuff.estudosjdk8.entidade;
+
+public class Tecnologia {
+	
+	private String nome;
+	private Integer desenvolvedor;
+	private String nivel;
+	
+	
+	
+
+}

@@ -1,0 +1,7 @@
+package br.eti.webstuff.estudosjdk8.enumeration;
+
+public enum Nivel {
+
+	SENIOR, PLENO, JUNIOR;
+
+}
