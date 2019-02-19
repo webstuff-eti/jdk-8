@@ -18,7 +18,7 @@ public class PopulaLista {
 		perfis.add(new Perfil( 3, "JDK 8", Nivel.PLENO, false, true, 6, "Fulano 03", 4));
 		perfis.add(new Perfil( 4, "JDK 8", Nivel.PLENO, true, true, 8, "Fulano 04", 5));
 		
-		perfis.add(new Perfil( 5, "JDK 8", Nivel.SENIOR, true, true, 9, "Fulano 05", 6));
+		perfis.add(new Perfil( 5, "JDK 8", Nivel.SENIOR, false, true, 9, "Fulano 05", 6));
 		perfis.add(new Perfil( 6, "JDK 8", Nivel.SENIOR, true, true, 10, "Fulano 06", 7));
 		perfis.add(new Perfil( 7, "JDK 8", Nivel.SENIOR, true, true, 11, "Fulano 07", 8));
 		perfis.add(new Perfil( 8, "JDK 8", Nivel.SENIOR, true, true, 12, "Fulano 08", 9));
